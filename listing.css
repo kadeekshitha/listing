@@ -1,0 +1,391 @@
+body{
+    margin:auto;
+    background-color: rgb(224, 204, 123);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header section CSS*/
+header{
+    height: 57px;
+    /*border: 10px solid greenyellow;*/
+    background-color:#2874f0;
+}
+
+
+
+button{
+    height: 32px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: black;/*text-color*/
+}   
+
+#one{
+    
+    float :left;
+    display: flex;
+}
+
+#one > a{
+    margin-top: 5%;
+    
+}
+
+#one > h1{
+    margin: 3.5%;
+}
+
+#one > button{
+    margin-top: 11px;
+}
+
+#two{
+    float :right;
+    
+}
+
+#two > button{
+    margin-top: 10px;
+    margin-right: 9px;
+}
+
+#login{
+    background-color: rgb(170, 170, 223);
+
+}
+
+/*Menu section CSS*/
+.secondmain{
+    /*height: 700px;*/
+    width: 90%;
+    /*border: 2px solid orangered;*/
+    margin-left: 5%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+#sin{
+    border: 2px solid gray;
+    height: 400px;
+    width: 20%;
+    /*margin-left: 0%;*/
+    float: left;
+}
+
+#sin > h1{
+    text-align: center;
+    margin: 0%;
+    margin-top: 5%;
+   
+}
+
+#sin > hr{
+    margin-top: 10%;
+}
+
+#sin > h2{
+    text-align: center;
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#cos{
+    /*border: 2px solid gray;*/
+    /*height: 500px;*/
+    width: 75.5%;
+    margin-left: 1.29%;
+    /*margin-right: 0%;*/
+    float: left;   
+}
+
+.tan{
+    height: 275px;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 3%;
+    /*border:2px solid gray;*/
+    display: inline-block;
+    box-shadow: 14px 14px 15px gray;
+}
+
+.plus{
+    width: 35%;
+    height: 100%;
+    /*border:1px solid black;*/
+    float: left;
+}
+
+.sum{
+    width:100%;
+    height:100%;
+    border-radius: 10%;
+}
+
+.minus{
+    width: 60%;
+    height: 100%;
+    /*border:1px solid black;*/
+    float: left;
+    margin-left: 2%;
+}
+
+.minus > h1{
+    margin-top: 0%;
+    font-size: 27px;
+    
+}
+
+.result{
+    /* you can use it where ever you want*/
+    color:white;
+}
+
+.minus > h2{
+    margin-top: -1%;
+   
+}
+
+.minus > h3{
+    margin-top: -1%;
+    
+}
+
+.minus > h4{
+    margin-top: -1%;
+    
+}
+
+#gamma {
+    border: blue;
+    border-radius: 5%;
+    background-color: yellowgreen;
+    width: 85px;
+    height: 33px;
+    margin: auto;
+}
+
+#neeta{
+    border: rgb(79, 33, 22);
+    border-radius: 5%;
+    background-color: rgb(243, 157, 53);
+    width: 85px;
+    height: 33px;
+    margin-left: 5%;
+}
+
+#tetha{
+    border: rgb(79, 33, 22);
+    border-radius: 5%;
+    background-color: rgb(36, 109, 219);
+    width: 85px;
+    height: 33px;
+    margin-left: 5%;
+}
+
+#integer{
+    border: rgb(79, 33, 22);
+    border-radius: 5%;
+    background-color: rgb(243, 129, 129);
+    width: 100px;
+    height: 33px;
+    margin-top: 4%;
+    margin: auto; 
+
+}
+
+#fraction{
+    border: rgb(79, 33, 22);
+    border-radius: 5%;
+    background-color: rgb(56, 165, 63);
+    width: 100px;
+    height: 33px;
+    margin-top: 4%;
+    margin-left: 8%;    
+}
+
+#Search{
+    height: 700px;
+    /*border: 5px solid pink;*/
+    background-image: url(food.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+#four {    
+    height: 130px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    /*margin: auto;*/
+    position:absolute;
+    margin-top: 2%;
+    margin-left: 44%;
+    
+}
+
+#four span {
+    position:absolute;
+    font-size: 88px;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+#five{
+    position: absolute;
+    font-size: 75px;
+    color: white;
+    margin-top: 12%;
+    margin-left: 20%;
+
+}
+
+.six{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 21%;
+    height: 78px;
+    width: 60%;
+    /*border: 5px solid white;*/
+}
+
+select{
+    height: 78px;
+    width: 49%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.seven{
+    width: 49%;
+}
+
+/*Quick Search section CSS*/
+#Quick{
+    /*height: 500px;*/
+    /*border: 3px solid rgb(47, 175, 255);*/
+    width:84%;
+    margin-left: 8%;
+    margin-top: 5%;
+    
+}
+
+#eight{
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   display: block;
+   margin-left: 3%;
+}
+
+#nine{
+    font-size: 18px;
+    color:gray;
+    display: block;
+    line-height: 50px;
+    margin-left: 3%;
+}
+
+#main{
+    width:100%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+    /*height: 550px;*/
+    /*background-color: beige;*/
+}
+
+.physics{
+    width: 315px;
+    height: 170px;
+    /*border: 2px solid orangered;*/
+    display: inline-block;
+    margin: 1.5%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.alpha{
+    height: 100%;
+    width: 50%;
+    background-color: beige;
+    float: left;
+}
+
+.alpha > img{
+    height: 100%;
+    width: 100%;
+}
+
+.beta{
+    height: 100%;
+    width: 50%;
+    /*background-color: rgb(74, 74, 50);*/ 
+    float: left;
+}
+
+.headone{
+    font-size: 180%;
+    text-align: center;
+}
+
+.contentone{
+    margin-left: 6%;
+}
+
+/*
+this has got - margin in it- not converting into inline element
+.physics{
+    width: 295px;
+    height: 200px;
+    border: 2px solid orangered;
+    float: left;
+    margin: 1%;
+}
+*/
+
+
+
+/*Footer section CSS*/
+footer{
+    margin-top: 40px;
+    height: 257px;
+    /*border: 2px solid rgb(255, 213, 47);*/
+    background-color: rgb(55, 11, 55);
+    text-align: center;
+}
+
+#ten{
+    text-align: center;
+    font-size: 20px;
+    color:white
+}
+
+.maths{
+    height: 100px;
+    width: 33%;
+    border-right: 1.5px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.noborder{
+    border: none;
+}
+
+.maths{
+    color: white;
+}
+
+.socialIcon{
+    width: 70px;
+    height: 70px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+
+/*
+<a href="https://ibb.co/hRHwvdM"><img src="https://i.ibb.co/5WvwVj9/restaurant-1.jpg" alt="restaurant-1" border="0"></a>
+*/
